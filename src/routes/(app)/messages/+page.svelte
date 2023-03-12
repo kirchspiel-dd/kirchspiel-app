@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 
 	function onNewMessageClick():void {
-		goto("{base}/messages/new")
+		goto("{base}/messages/new");
 	}
 
 </script>
