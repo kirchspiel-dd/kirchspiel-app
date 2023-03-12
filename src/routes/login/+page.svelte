@@ -4,15 +4,7 @@
     import logo from '$lib/images/martinLutherLogo.png';
 
 	function onLoginClick():void {
-
-        // const url = new URL(window.location.href);
-        // console.log(url.origin);
-        // goto(url)
-
-    // goto(url.href);
-    // // or this, if you do not want a new history entry:
-    // goto(url.href, { replaceState: true });
-        goto("{base}/");
+        goto(`${base}`);
 	}
 </script>
 

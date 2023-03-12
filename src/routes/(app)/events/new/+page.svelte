@@ -3,7 +3,7 @@
     import { base } from '$app/paths';
 
 	function onSaveEventClick():void {
-		goto("{base}/events/")
+		goto(`${base}/events/`);
 	}
 
     let questions = [
